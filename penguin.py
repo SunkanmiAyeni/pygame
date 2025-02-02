@@ -51,7 +51,7 @@ display_surface.blit(penguin_image, penguin_rect)
 display_surface.blit(text, text_rect)
 
 pygame.display.flip 
-clock.tick(30)
+
 
 pygame.quit()
 
