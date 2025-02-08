@@ -26,7 +26,7 @@ while running:
     if press[pygame.K_RIGHT]: x+=3
     if press[pygame.K_UP]: y-=3
     x=min(max(0,x),500-60)
-    y=min(max(0,x),500-60)
+    y=min(max(0,y),500-60)
     if x==0:currentcolour=colours["black"]
     elif x==440:currentcolour=colours["pink"]
     elif y==0:currentcolour=colours["orange"]
